@@ -1,0 +1,11 @@
+mybatis:
+  mapper-locations: classpath:mapper/*Dao.xml
+  type-aliases-package: com.example.democliment1.entry
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/xiulu?useSSL=true&serverTimezone=UTC&characterEncoding=UTF-8
+#      driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
